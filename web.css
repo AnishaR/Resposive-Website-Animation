@@ -1,0 +1,64 @@
+:root {
+    font-size: 87.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand Medium;
+    color: #333333;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    background-color: darkblue;
+    padding: 1rem;
+}
+
+.logo-left {
+    display: flex;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+}
+
+.main-menu {
+    display: flex;
+    width: 50%;
+}
+
+.right {
+    display: inline;
+    justify-content: space-around;
+    margin: 0 2rem;
+}
+
+.menu {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-body {
+    height:  35.3125rem;
+    width: 100%;
+    margin: 0 3rem;
+}
+
+.front-text {
+    font-size: 3rem;
+}
+
+.btn {
+    background-color: #197f51;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 0.07rem solid #197f51;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+

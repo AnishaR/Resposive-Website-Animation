@@ -9,7 +9,7 @@
     color: #333333;
 }
 
-.nav {
+.nav-container {
     display: flex;
     width: 100%;
     background-color: darkblue;
@@ -40,25 +40,72 @@
     font-weight: bold;
 }
 
-.main-body {
+.body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     height:  35.3125rem;
     width: 100%;
-    margin: 0 3rem;
 }
 
 .front-text {
     font-size: 3rem;
+    width: 50%;
+    text-align: left;
+    margin-top: 10.71rem;
+    margin-bottom: 10.71rem;
+    margin-left: 12.14rem;
+    margin-right: 10.71rem;
+}
+
+.front-text p {
+    margin-bottom: 1.5rem;
 }
 
 .btn {
     background-color: #197f51;
     color: white;
     text-decoration: none;
-    font-size: 1rem;
-    padding: 0.5rem;
+    font-size: 2rem;
+    padding: 0.75rem 3rem;
     border: 0.07rem solid #197f51;
     border-radius: 1rem;
-    text-align: center;
 }
 
+.front-image {
+    width: 60%;
+    
+}
 
+.proverb-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10.71rem;
+    font-size: 2.5rem;
+}
+
+.btn-light {
+    color:#197f51;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 0.75rem 3rem;
+    border: 0.21rem solid #197f51;
+    border-radius: 1rem;
+}
+
+.design-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.design-image {
+    width: 50%;
+}
+
+.design-info {
+    width: 50%;
+}

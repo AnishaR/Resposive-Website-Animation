@@ -11,9 +11,11 @@
 
 .nav-container {
     display: flex;
+    align-items: center;
     width: 100%;
+    height: 2.285rem;
     background-color: darkblue;
-    padding: 1rem;
+    padding: 1.14rem;
 }
 
 .logo-left {
@@ -108,4 +110,27 @@
 
 .design-info {
     width: 50%;
+}
+
+.subscribe-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 26.357rem;
+    background-image: linear-gradient(to bottom, #2e123b, #0e0a37);
+}
+
+.subscribe-text {
+    width: 50%;
+    padding: 3.428rem;
+    font-size: 2.5rem;
+}
+
+.subscribe-text p {
+    color: white;
+}
+
+input[type=text], input[type=email] {
+    width: 33.285rem;
+    height: 4rem;
 }

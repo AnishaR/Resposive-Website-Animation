@@ -89,21 +89,23 @@
     align-items: center;
     width: 100%;
     height: 10.71rem;
-    font-size: 2.5rem;
 }
 
 .btn-light {
     color:#197f51;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0.75rem 3rem;
     border: 0.21rem solid #197f51;
     border-radius: 1rem;
+    max-width: 7rem;
+    text-align: center;
 }
 
 .design-container {
     display: flex;
     flex-direction: row;
+    margin: 8rem 12.14rem;
 }
 
 .design-image {
@@ -112,6 +114,13 @@
 
 .design-info {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.design-info p {
+    font-size: 1.5rem;
 }
 
 .subscribe-container {
@@ -123,13 +132,20 @@
 }
 
 .subscribe-text {
-    width: 50%;
+    width: 40%;
     padding: 3.428rem;
-    font-size: 2.5rem;
 }
 
-.subscribe-text p {
+.subscribe-text h1 {
     color: white;
+}
+
+.subscribe-form {
+    width: 60%;
+}
+
+.subscribe-form p {
+    text-align: center;
 }
 
 input[type=text], input[type=email] {
@@ -146,7 +162,7 @@ input[type=submit] {
     background-color: #197f51;
     color: white;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0.75rem 3rem;
     border: 0.07rem solid #197f51;
     border-radius: 1rem;

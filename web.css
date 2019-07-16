@@ -185,6 +185,7 @@ input[type=submit] {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .footer-content {
@@ -195,7 +196,7 @@ input[type=submit] {
 
 .footer-content h1 {
     color: white;
-    margin-bottom: 1.75rem; 
+    margin-bottom: 1rem; 
 }
 
 .footer-content p {

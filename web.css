@@ -18,7 +18,7 @@
 }
 
 #main-content {
-    height: 30rem;
+    min-height: 30rem;
     padding: 0 100px;
 }
 
@@ -36,13 +36,30 @@
 }
 
 #proverb {
-    height: 10rem;
+    min-height: 10rem;
     text-align: center;
     padding: 1rem 0;
 }
 
+#services {
+    padding: 0 100px;
+    margin: 6rem 0;
+}
+
+#service-image {
+    text-align: center;
+}
+
+#services .row {
+    margin-bottom: 3rem;
+}
+
+#service-text {
+    margin: auto;
+}
+
 #subscribe {
-    height: 25rem;
+    min-height: 25rem;
     background-image: linear-gradient(to bottom, #2e123b, #0e0a37);
     padding: 0 100px;
 }
@@ -58,4 +75,50 @@
 #subscribe .btn-success {
     width: 100%;
 }
+
+#footer {
+    min-height: 25rem;
+    background-color: #000000;
+    padding-left: 100px;
+}
+
+#footer-content {
+    margin: 6rem 0;
+}
+
+#footer-content h2,#footer-content p {
+    color: white;
+    margin-bottom: 1rem; 
+}
+
+#footer-content ul {
+    padding: 0;
+}
+
+#footer-content li {
+    color: white;
+    font-size: 0.75rem;
+    list-style-type: none;
+    margin: 1rem 0;
+}
+
+#footer-content a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer-copyright {
+    min-height: 3rem;
+    background-color: #000000;
+}
+
+#footer-copyright p {
+    color: white;
+    font-size: 0.75rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+
 

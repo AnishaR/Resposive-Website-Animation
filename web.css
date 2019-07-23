@@ -14,7 +14,11 @@
 
 #main-nav {
     background-image: linear-gradient(to right,  #0e0a37, #2e123b);
-    min-height: 3rem;
+    min-height: 4rem;
+}
+
+#main-nav .row {
+    padding: 10px;
 }
 
 #main-content {

@@ -154,9 +154,52 @@
         font-weight: 600;
     }
 
+    #services {
+        padding: 0 2rem;
+        margin: 3rem 0;
+    }
     
+    #service-image {
+        text-align: center;
+    }
+    
+    #services .row {
+        margin-bottom: 3rem;
+    }
+    
+    #service-text h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
 
+    #subscribe {
+        min-height: 15rem;
+        background-image: linear-gradient(to bottom, #2e123b, #0e0a37);
+        padding: 0 2rem;
+    }
+    
+    #subscribe .row{
+        padding: 2rem 0;
+    }
+    
+    #subscribe-text {
+        color: white;
+        margin-bottom: 2rem;
+    }
 
+    #subscribe-text h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    #footer {
+        padding: 0 2rem;
+    }
+    
+    #footer-content {
+        margin: 2rem 0;
+        text-align: center;
+    }
 }
 
 

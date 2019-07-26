@@ -123,6 +123,42 @@
     margin-bottom: 0;
 }
 
+/*for mobile screen*/
+
+@media only screen and (max-width: 600px) {
+    #main-content {
+        min-height: 28rem;
+        padding: 0 1rem;
+    }
+    
+    #front-text {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 2rem 0;
+        font-weight: 700;
+    }
+
+    #front-image {
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+
+    #proverb {
+        min-height: 2rem;
+        text-align: center;
+        padding: 0 0.5rem;
+    }
+
+    #proverb h2 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    
+
+
+}
+
 
 
 
